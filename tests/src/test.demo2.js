@@ -1,7 +1,6 @@
 import post from '../../src/demo2.js'; 
 const utils = require('./../utils');
 const sinon = require('sinon');
-require('./../utils');
 describe('demo2', function() {
     before(function() {
         utils.initJquery('');
